@@ -1,0 +1,140 @@
+@import "~bootstrap/scss/bootstrap";
+
+$black: rgba(42, 42, 42, 1);
+
+body {
+  font-family: 'Archivo', sans-serif;
+  color: $black;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 700;
+}
+
+.wrapper {
+  max-width: 1080px;
+}
+
+.navbar {
+  padding: 1rem 0 1rem 0;
+}
+
+.navbar-dark .navbar-toggler {
+  color: white;
+  border-color: white;
+}
+
+.dropdown-menu {
+  background-color: inherit;
+  border: none;
+
+  & .dropdown-item {
+    color: rgba(255, 255, 255, 0.5);
+
+    &:hover, &:focus {
+      color:rgba(255, 255, 255, 0.75);
+      background-color: transparent;
+    }
+
+    &:active, &.active {
+      color: white;
+      background-color: transparent;
+    }
+  }
+}
+
+.form-inline {
+  flex-flow: nowrap;
+  position: absolute;
+  right: 0;
+  top: 1em;
+
+  & .form-control {
+    border: none;
+    color: $black;
+    margin-right: .5em;
+
+    &:focus {
+      box-shadow: 0 0 0 .2rem rgba(255, 255, 255, .3);
+    }
+  }
+
+  & .btn-light {
+    border: none;
+    background-color: white;
+
+    &:hover {
+      background-color: rgba(255, 255, 255, .75)
+    }
+  }
+}
+
+.h-scroll {
+  max-width: 1080px;
+  overflow: auto;
+  -webkit-overflow-scrolling: touch;
+  
+  & .card {
+    height: 50vmin;
+    border: none;
+    border-radius: .5rem;
+    
+
+    & .card-img-top {
+      height: 100%;
+      object-fit: cover;
+      overflow: hidden;
+      -webkit-filter:brightness(60%);
+      -moz-filter:brightness(60%);
+      filter: url(#brightness); /* required for FF */
+      filter:brightness(60%);
+      border-radius: .5rem;
+    }
+
+    & .card-body {
+
+      & .card-title {
+        color: white;
+        margin-bottom: 1em;
+      }
+      & .btn {
+        padding: .5rem 1.5rem;
+      }
+    }
+  }
+}
+
+.simplebar-scrollbar::before {
+  background: var(--green) !important;
+}
+
+footer {
+  width: 100%;
+  height: auto;
+  background-color: $black;
+  color: white;
+}
+
+.small {
+  font-size: .75rem;
+}
+
+// ::-webkit-scrollbar {
+//   width: 1em;
+// }
+
+// ::-webkit-scrollbar-button {
+//   display: none;
+// }
+
+// ::-webkit-scrollbar-track {
+//   -webkit-border-radius: 1em;
+//   border-radius: 1em;
+// }
+
+// ::-webkit-scrollbar-thumb {
+//   background-color: darkgrey;
+//   outline: 1px solid slategrey;
+//   -webkit-border-radius: 1em;
+//   border-radius: 1em;
+// }
