@@ -1,19 +1,40 @@
 import React from "react"
-import { Link } from "gatsby"
-
 import Layout from "../components/layout"
-import Image from "../components/image"
+import Main from "../components/main"
 import SEO from "../components/seo"
 
-import "bootstrap/dist/css/bootstrap.min.css";
-import "../styles/scss/fixdoor.scss"
+import OptionCard from "../components/option-card"
 
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
-    <h1>Hi people</h1>
-    <p>Welcome to your new Gatsby site.</p>
-    <p>Now go build something great.</p>
+    <Main pageTitle="What can we help you with today?">
+      <OptionCard
+        link="#"
+        alt="alt text"
+        cardTitle="card title"
+      />
+      <OptionCard
+        link="#"
+        alt="alt text"
+        cardTitle="card title"
+      />
+      <OptionCard
+        link="#"
+        alt="alt text"
+        cardTitle="card title"
+      />
+      <OptionCard
+        link="#"
+        alt="alt text"
+        cardTitle="card title"
+      />
+      <OptionCard
+        link="#"
+        alt="alt text"
+        cardTitle="card title"
+      />
+    </Main>
   </Layout>
 )
 

@@ -5,6 +5,15 @@ module.exports = {
     author: `@ntlaseca`,
   },
   plugins: [
+    {
+      resolve: `gatsby-plugin-google-fonts`,
+      options: {
+        fonts: [
+          `Archivo\:400,400i,700,700i`
+        ],
+        display: `swap`
+      }
+    },
     `gatsby-plugin-react-helmet`,
     {
       resolve: `gatsby-source-filesystem`,
