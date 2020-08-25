@@ -7,53 +7,38 @@ import OptionCard from "../components/option-card"
 
 const Repairs = () => (
   <Layout>
-    <SEO title="Repairs" />
-    <Main pageTitle="What is wrong with your door?">
+    <SEO title="New Opener" />
+    <Main pageTitle="What kind of opener do you want?">
       <CardScroller>
         <OptionCard
           link="#"
           alt="alt text"
-          cardTitle="Door Won't Go Up"
+          cardTitle="Some People Call This an Opener, We Call It a Remote"
         />
         <OptionCard
           link="#"
           alt="alt text"
-          cardTitle="Broken Garage Door Springs"
+          cardTitle="Liftmaster 8160 1/2 HP Chain Drive"
         />
         <OptionCard
           link="#"
           alt="alt text"
-          cardTitle="My Door Is Not Level"
+          cardTitle="Liftmaster 8360 3/4 HP Chain Drive"
         />
         <OptionCard
           link="#"
           alt="alt text"
-          cardTitle="Have Broken Cables"
+          cardTitle="Liftmaster 8587 3/4 HP Industurial Duty Wood Door Opener"
         />
         <OptionCard
           link="#"
           alt="alt text"
-          cardTitle="Door Off Tracks"
+          cardTitle="Liftmaster 8550WLB 3/4 HP Belt Drive Opener"
         />
         <OptionCard
           link="#"
           alt="alt text"
-          cardTitle="I Hit My Door"
-        />
-        <OptionCard
-          link="#"
-          alt="alt text"
-          cardTitle="My Door Won't Go Down"
-        />
-        <OptionCard
-          link="#"
-          alt="alt text"
-          cardTitle="My Door Is Too Noisy"
-        />
-        <OptionCard
-          link="#"
-          alt="alt text"
-          cardTitle="I Don't Know What Is Wrong"
+          cardTitle="8500W Side Mount Garage Door Opener"
         />
       </CardScroller>
     </Main>

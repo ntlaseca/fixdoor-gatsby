@@ -1,58 +1,58 @@
 import React from "react"
-import Layout from "../components/layout"
-import SEO from "../components/seo"
-import Main from "../components/main"
-import CardScroller from "../components/card-scroller"
-import OptionCard from "../components/option-card"
+import Layout from "../../components/layout"
+import SEO from "../../components/seo"
+import Main from "../../components/main"
+import CardScroller from "../../components/card-scroller"
+import OptionCard from "../../components/option-card"
 
-const IndexPage = () => (
+const Repairs = () => (
   <Layout>
-    <SEO title="Home" />
-    <Main pageTitle="What can we help you with today?">
+    <SEO title="Opener Parts" />
+    <Main pageTitle="What type of garage door opener do you have?">
       <CardScroller>
         <OptionCard
           link="#"
           alt="alt text"
-          cardTitle="Need a Technician"
+          cardTitle="Liftmaster"
         />
         <OptionCard
           link="#"
           alt="alt text"
-          cardTitle="Repairs"
+          cardTitle="Chaimberlan"
         />
         <OptionCard
           link="#"
           alt="alt text"
-          cardTitle="New Door"
+          cardTitle="Raynor"
         />
         <OptionCard
           link="#"
           alt="alt text"
-          cardTitle="New Opener"
+          cardTitle="Sears"
         />
         <OptionCard
           link="#"
           alt="alt text"
-          cardTitle="Commercial"
+          cardTitle="Genie"
         />
         <OptionCard
           link="#"
           alt="alt text"
-          cardTitle="Parts"
+          cardTitle="Linear"
         />
         <OptionCard
           link="#"
           alt="alt text"
-          cardTitle="DIY"
+          cardTitle="Guardian"
         />
         <OptionCard
           link="#"
           alt="alt text"
-          cardTitle="About Us"
+          cardTitle="Marantec"
         />
       </CardScroller>
     </Main>
   </Layout>
 )
 
-export default IndexPage
+export default Repairs

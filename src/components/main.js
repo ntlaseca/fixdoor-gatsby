@@ -1,9 +1,6 @@
 import React from "react"
 import PropTypes from "prop-types"
 
-import SimpleBar from "simplebar-react"
-import 'simplebar/dist/simplebar.min.css'
-
 import Container from "react-bootstrap/Container"
 import Row from "react-bootstrap/Row"
 import Col from "react-bootstrap/Col"
@@ -30,11 +27,7 @@ const Main = ({ pageTitle, children }) => {
             </Col>
           </Row>
 
-          <SimpleBar className="h-scroll pt-5 pb-5 mb-5">
-            <Row className="flex-nowrap text-center">
-              {children}
-            </Row>
-          </SimpleBar>
+          {children}
 
         </div>
       </Container>

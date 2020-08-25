@@ -1,59 +1,59 @@
 import React from "react"
-import Layout from "../components/layout"
-import SEO from "../components/seo"
-import Main from "../components/main"
-import CardScroller from "../components/card-scroller"
-import OptionCard from "../components/option-card"
+import Layout from "../../components/layout"
+import SEO from "../../components/seo"
+import Main from "../../components/main"
+import CardScroller from "../../components/card-scroller"
+import OptionCard from "../../components/option-card"
 
 const Repairs = () => (
   <Layout>
-    <SEO title="Repairs" />
-    <Main pageTitle="What is wrong with your door?">
+    <SEO title="Door Parts" />
+    <Main pageTitle="What type of garage door parts do you need?">
       <CardScroller>
         <OptionCard
           link="#"
           alt="alt text"
-          cardTitle="Door Won't Go Up"
+          cardTitle="Springs"
         />
         <OptionCard
           link="#"
           alt="alt text"
-          cardTitle="Broken Garage Door Springs"
+          cardTitle="Hinges"
         />
         <OptionCard
           link="#"
           alt="alt text"
-          cardTitle="My Door Is Not Level"
+          cardTitle="Cables"
         />
         <OptionCard
           link="#"
           alt="alt text"
-          cardTitle="Have Broken Cables"
+          cardTitle="Bottom Fixtures"
         />
         <OptionCard
           link="#"
           alt="alt text"
-          cardTitle="Door Off Tracks"
+          cardTitle="Top Fixtures"
         />
         <OptionCard
           link="#"
           alt="alt text"
-          cardTitle="I Hit My Door"
+          cardTitle="End Bearing Plates"
         />
         <OptionCard
           link="#"
           alt="alt text"
-          cardTitle="My Door Won't Go Down"
+          cardTitle="Center Bearing Plates"
         />
         <OptionCard
           link="#"
           alt="alt text"
-          cardTitle="My Door Is Too Noisy"
+          cardTitle="Locks"
         />
         <OptionCard
           link="#"
           alt="alt text"
-          cardTitle="I Don't Know What Is Wrong"
+          cardTitle="Weather Seal"
         />
       </CardScroller>
     </Main>

@@ -7,56 +7,46 @@ import OptionCard from "../components/option-card"
 
 const Repairs = () => (
   <Layout>
-    <SEO title="Repairs" />
-    <Main pageTitle="What is wrong with your door?">
+    <SEO title="New Door" />
+    <Main pageTitle="What kind of door do you like?">
       <CardScroller>
         <OptionCard
           link="#"
           alt="alt text"
-          cardTitle="Door Won't Go Up"
+          cardTitle="Standard Door"
         />
         <OptionCard
           link="#"
           alt="alt text"
-          cardTitle="Broken Garage Door Springs"
+          cardTitle="Carriage Style Door"
         />
         <OptionCard
           link="#"
           alt="alt text"
-          cardTitle="My Door Is Not Level"
+          cardTitle="Modern Door"
         />
         <OptionCard
           link="#"
           alt="alt text"
-          cardTitle="Have Broken Cables"
+          cardTitle="Wood Look-Alike Doors"
         />
         <OptionCard
           link="#"
           alt="alt text"
-          cardTitle="Door Off Tracks"
+          cardTitle="Wood Doors"
         />
         <OptionCard
           link="#"
           alt="alt text"
-          cardTitle="I Hit My Door"
+          cardTitle="Glass Doors"
         />
         <OptionCard
           link="#"
           alt="alt text"
-          cardTitle="My Door Won't Go Down"
-        />
-        <OptionCard
-          link="#"
-          alt="alt text"
-          cardTitle="My Door Is Too Noisy"
-        />
-        <OptionCard
-          link="#"
-          alt="alt text"
-          cardTitle="I Don't Know What Is Wrong"
+          cardTitle="Coupon Doors"
         />
       </CardScroller>
-    </Main>
+    </Main> 
   </Layout>
 )
 

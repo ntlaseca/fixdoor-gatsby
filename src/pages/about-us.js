@@ -5,59 +5,64 @@ import Main from "../components/main"
 import CardScroller from "../components/card-scroller"
 import OptionCard from "../components/option-card"
 
-const Repairs = () => (
+const AboutUs = () => (
   <Layout>
-    <SEO title="Repairs" />
-    <Main pageTitle="What is wrong with your door?">
+    <SEO title="About Us" />
+    <Main pageTitle="Who We Are">
       <CardScroller>
         <OptionCard
           link="#"
           alt="alt text"
-          cardTitle="Door Won't Go Up"
+          cardTitle="Owner"
         />
         <OptionCard
           link="#"
           alt="alt text"
-          cardTitle="Broken Garage Door Springs"
+          cardTitle="Sales Director"
         />
         <OptionCard
           link="#"
           alt="alt text"
-          cardTitle="My Door Is Not Level"
+          cardTitle="Dispatch Director"
         />
         <OptionCard
           link="#"
           alt="alt text"
-          cardTitle="Have Broken Cables"
+          cardTitle="Accounting"
         />
         <OptionCard
           link="#"
           alt="alt text"
-          cardTitle="Door Off Tracks"
+          cardTitle="Technician Executives"
         />
         <OptionCard
           link="#"
           alt="alt text"
-          cardTitle="I Hit My Door"
+          cardTitle="Commercial Techs"
         />
         <OptionCard
           link="#"
           alt="alt text"
-          cardTitle="My Door Won't Go Down"
+          cardTitle="Residential Techs"
         />
         <OptionCard
           link="#"
           alt="alt text"
-          cardTitle="My Door Is Too Noisy"
+          cardTitle="Installers"
         />
         <OptionCard
           link="#"
           alt="alt text"
-          cardTitle="I Don't Know What Is Wrong"
+          cardTitle="Warehouse"
+        />
+        <OptionCard
+          link="#"
+          alt="alt text"
+          cardTitle="Wood Door Shop"
         />
       </CardScroller>
     </Main>
   </Layout>
 )
 
-export default Repairs
+export default AboutUs
